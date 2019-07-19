@@ -1,0 +1,15 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: chat-admin
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 172.16.4.4:8848
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
