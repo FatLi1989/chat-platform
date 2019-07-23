@@ -1,0 +1,14 @@
+server:
+  port: 9101
+spring:
+  application:
+    name: chat-app-api
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 47.244.240.165:8848
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"

@@ -10,10 +10,10 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
  **/
 @EnableDiscoveryClient
 @SpringBootApplication
-public class ChatPlatformProviderAdminApiApplication {
+public class ChatAdminApiApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(ChatPlatformProviderAdminApiApplication.class, args);
+        SpringApplication.run(ChatAdminApiApplication.class, args);
     }
 
 }

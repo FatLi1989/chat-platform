@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
-    <artifactId>chat-platform-provider-admin-api</artifactId>
+    <artifactId>chat-platform-provider-app-api</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>chat-platform-provider-admin-api</name>
-    <description>chat后台管理平台</description>
+    <name>chat-platform-provider-app-api</name>
+    <description>The App Api</description>
 
     <dependencies>
         <dependency>
@@ -54,7 +54,6 @@
               <artifactId>spring-cloud-starter-alibaba-nacos-config</artifactId>
           </dependency>-->
     </dependencies>
-
 
     <build>
         <plugins>
