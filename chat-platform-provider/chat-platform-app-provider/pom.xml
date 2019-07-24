@@ -17,6 +17,14 @@
 
 
     <dependencies>
+        <!-- 内部依赖 -->
+        <dependency>
+            <groupId>com.novli.nacos</groupId>
+            <artifactId>chat-platform-common</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+            <scope>compile</scope>
+        </dependency>
+        <!-- 外部依赖 -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-redis</artifactId>
