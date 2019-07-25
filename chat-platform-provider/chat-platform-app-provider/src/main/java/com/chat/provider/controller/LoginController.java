@@ -1,7 +1,9 @@
 package com.chat.provider.controller;
 
 import com.chat.common.util.file.FastDfsClient;
+import com.chat.common.util.password.MD5Utils;
 import com.chat.common.util.result.JSONResult;
+import com.chat.provider.model.pojo.Users;
 import com.chat.provider.service.UserService;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;

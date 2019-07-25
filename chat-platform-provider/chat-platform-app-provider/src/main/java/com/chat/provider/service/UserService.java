@@ -1,5 +1,7 @@
 package com.chat.provider.service;
 
+import com.chat.provider.model.pojo.Users;
+
 /**
  * @author Liyanpeng
  * @date 2019/6/5 17:18
